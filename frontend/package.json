@@ -1,0 +1,36 @@
+{
+    "name": "project-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for the project",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+      "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3",
+      "axios": "^0.24.0",
+      "socket.io-client": "^4.4.1",
+      "react-router-dom": "^6.2.1",
+      "@mui/material": "^5.2.0",
+      "@emotion/react": "^11.7.0",
+      "@emotion/styled": "^11.6.0"
+    },
+    "devDependencies": {},
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
